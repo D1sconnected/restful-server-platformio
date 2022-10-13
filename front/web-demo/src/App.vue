@@ -26,14 +26,6 @@
             <v-list-tile-title>Light</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/pwm">
-          <v-list-tile-action>
-            <v-icon>highlight</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title>PWM</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
       </v-list>
     </v-navigation-drawer>
     <v-toolbar color="red accent-4" dark fixed app clipped-left>
