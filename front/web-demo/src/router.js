@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Chart from './views/Chart.vue'
 import Light from './views/Light.vue'
+import Pwm from './views/Pwm.vue'
 
 Vue.use(Router)
 
@@ -28,7 +29,7 @@ export default new Router({
     {
       path: '/pwm',
       name: 'pwm',
-      component: PWM
+      component: Pwm
     }
   ]
 })

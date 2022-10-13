@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     get_chart_value() {
-      return this.$store.state.chart_value;
+      return this.$store.state.tempStore.chart_value;
     }
   },
   methods: {
